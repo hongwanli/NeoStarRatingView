@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00D505619C18DF800201F87 /* home-list-star-hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F00D505419C18DF800201F87 /* home-list-star-hl@2x.png */; };
+		F00D505719C18DF800201F87 /* home-list-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F00D505519C18DF800201F87 /* home-list-star@2x.png */; };
 		F0D6495F19B06722001FD640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D6495E19B06722001FD640 /* Foundation.framework */; };
 		F0D6496119B06722001FD640 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D6496019B06722001FD640 /* CoreGraphics.framework */; };
 		F0D6496319B06722001FD640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D6496219B06722001FD640 /* UIKit.framework */; };
@@ -21,6 +23,7 @@
 		F0D6498019B06722001FD640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D6496219B06722001FD640 /* UIKit.framework */; };
 		F0D6498819B06722001FD640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0D6498619B06722001FD640 /* InfoPlist.strings */; };
 		F0D6498A19B06722001FD640 /* NeoStarRatingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D6498919B06722001FD640 /* NeoStarRatingViewTests.m */; };
+		F0D6499519B0673B001FD640 /* NeoStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D6499419B0673B001FD640 /* NeoStarRatingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F00D505419C18DF800201F87 /* home-list-star-hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-list-star-hl@2x.png"; sourceTree = "<group>"; };
+		F00D505519C18DF800201F87 /* home-list-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-list-star@2x.png"; sourceTree = "<group>"; };
 		F0D6495B19B06722001FD640 /* NeoStarRatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoStarRatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D6495E19B06722001FD640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0D6496019B06722001FD640 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		F0D6498519B06722001FD640 /* NeoStarRatingViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeoStarRatingViewTests-Info.plist"; sourceTree = "<group>"; };
 		F0D6498719B06722001FD640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0D6498919B06722001FD640 /* NeoStarRatingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoStarRatingViewTests.m; sourceTree = "<group>"; };
+		F0D6499319B0673B001FD640 /* NeoStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeoStarRatingView.h; sourceTree = "<group>"; };
+		F0D6499419B0673B001FD640 /* NeoStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeoStarRatingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +124,10 @@
 				F0D6497019B06722001FD640 /* Main.storyboard */,
 				F0D6497319B06722001FD640 /* ViewController.h */,
 				F0D6497419B06722001FD640 /* ViewController.m */,
+				F00D505419C18DF800201F87 /* home-list-star-hl@2x.png */,
+				F00D505519C18DF800201F87 /* home-list-star@2x.png */,
+				F0D6499319B0673B001FD640 /* NeoStarRatingView.h */,
+				F0D6499419B0673B001FD640 /* NeoStarRatingView.m */,
 				F0D6497619B06722001FD640 /* Images.xcassets */,
 				F0D6496519B06722001FD640 /* Supporting Files */,
 			);
@@ -230,7 +241,9 @@
 			files = (
 				F0D6497719B06722001FD640 /* Images.xcassets in Resources */,
 				F0D6496919B06722001FD640 /* InfoPlist.strings in Resources */,
+				F00D505719C18DF800201F87 /* home-list-star@2x.png in Resources */,
 				F0D6497219B06722001FD640 /* Main.storyboard in Resources */,
+				F00D505619C18DF800201F87 /* home-list-star-hl@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +264,7 @@
 			files = (
 				F0D6497519B06722001FD640 /* ViewController.m in Sources */,
 				F0D6496F19B06722001FD640 /* AppDelegate.m in Sources */,
+				F0D6499519B0673B001FD640 /* NeoStarRatingView.m in Sources */,
 				F0D6496B19B06722001FD640 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +470,7 @@
 				F0D6498F19B06722001FD640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0D6499019B06722001FD640 /* Build configuration list for PBXNativeTarget "NeoStarRatingViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +479,7 @@
 				F0D6499219B06722001FD640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
